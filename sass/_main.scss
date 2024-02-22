@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Sans-serif;
+  background: #21295c;
+  color: #cf5c36;
+  .contenedor {
+    width: 95%;
+    margin: 31px;
+    background: #eee5e9;
+    padding: 20px;
+    form {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      #numero1 {
+        margin: 0 15px;
+        width: 30%;
+      }
+    }
+    form p {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      font-size: 30px;
+      height: 58.9px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    form .btn {
+      width: 30%;
+      background: #cf5c36;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      text-align: center;
+      padding: 20px;
+      display: inline-block;
+      text-decoration: none;
+    }
+  }
+}
